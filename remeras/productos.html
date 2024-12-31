@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEEN </title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="icon" href="../imagenes/logo - copia.ico">
+</head>
+<body>
+    <section class="posicion">
+        <div class="item-posicion uno">
+            <header class="encabezado">
+                <div class="logo">
+                    <a href="./index.html">
+                    <img src="./imagenes/logo.jpg" width="75">
+                    </a>
+                </div>
+                <div class="navegacion">
+                <nav>
+                    <a href="./productos.html">PRODUCTOS</a>
+                    <a href="contacto.html">NOSOTROS</a>
+                </nav></div>
+                <div class="carro">
+                    <a href="carrito.html"><img src="./imagenes/shopping-cart.png" alt="icono carrito" width="40"></a>
+                </div>
+            </div>
+            </header>
+        </div>
+        <div class="item-posicion dos">
+            <main>
+                <p class="textopresentacion">"Minimalismo como estilo de vida"</p>
+        
+                <div class="contenedor">
+                <div class="cajas">
+                <article>
+                    <img src="./imagenes/Gemini_Generated_Image_fknw2zfknw2zfknw.jpeg" width="100%">
+                    <h3>REMERA NEGRA LISA</h3>
+                    <p>Remera negra tipo minimalista.</p>
+                    <h4>$15999</h4>
+                    <button id="btnComprar" onclick="agregarProducto('REMERA NEGRA', 15999)">AGREGAR A CARRITO</button>
+                </article></div>
+                <div class="cajas">
+                <article>
+                    <img src="./imagenes/Gemini_Generated_Image_nk27kdnk27kdnk27.jpeg" width="100%">
+                    <h3>REMERA BLANCA LISA</h3>
+                    <p>Remera blanca tipo minimalista.</p>
+                    <h4>$14.999</h4>
+                    <button id="btnComprar" onclick="agregarProducto('REMERA BLANCA', 14999)">AGREGAR A CARRITO</button>
+                 </article></div>
+
+                 <div class="cajas">
+                    <article>
+                        <img src="./imagenes/Gemini_Generated_Image_yjnolbyjnolbyjno.jpeg" width="100%">
+                        <h3>REMERA BLANCA LISA</h3>
+                        <p>Remera blanca tipo minimalista.</p>
+                        <h4><del>$15.999</del></h4>
+                        <h4>$7.999</h4>
+                        <button id="btnComprar" onclick="agregarProducto('REMERA BLANCA 2', 7999)">AGREGAR A CARRITO</button>
+
+                    </article></div></div>
+        
+         
+            </main>
+            <div id="carrito"></div>
+        </div>
+        <div class="item-posicion tres">
+            <aside>
+                <button id="btnPagar" onclick="pagar()"> Pagar </button>
+                <button id="btnLimpiar" onclick="limpiarCarrito()"> Limpiar Carrito</button>
+            </aside>
+        </div>
+        <div class="item-posicion uno">
+            <footer>
+                <section class="casa">
+                <h4>BERISSO, BUENOS AIRES, ARGENTINA.</h4>
+                </section>
+                <section class="redes">
+                    <ul class="red">
+                        <li><a href=""> <img src="./imagenes/whatsapp (2).png" alt="logo wsp" width="40"></a></li>
+                        <li><a href=""> <img src="./imagenes/facebook (1).png" alt="logo fcb" width="40"></a></li>
+                        <li><a href=""> <img src="./imagenes/google-plus.png" alt="logo google" width="40"></a></li>
+                        <li><a href=""> <img src="./imagenes/instagram.png" alt="logo instagram" width="40"></a></li>
+                        <li><a href=""> <img src="./imagenes/smartphone.png" alt="logo telefono" width="40"></a></li>
+        
+                    </ul>
+                </section>
+            </footer>
+        </div>
+    </section>
+<script src="./javascript/proyectoRemera.js"></script>
+</body>
+</html>
